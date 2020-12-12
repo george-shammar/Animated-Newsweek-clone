@@ -297,4 +297,11 @@ p {
     justify-content: space-between;
     flex-direction: column;
   }
+
+  .magazine {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+  }
 }
